@@ -1,25 +1,51 @@
 .timer{
 	width: 80%;
 	margin: 0 auto;
+	margin-bottom: 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;	
 }
-.showTime{
+
+.timerBlock p{
+	font-size: 30px;
+	font-weight: 600;
+	color: #b3ffb3;
+}
+/*.showTime{
 	width: 100px;
 	padding: 20px;
 	font-size: 20px;
-	border :1px solid #000;
+	border: 1px solid #000;
 	margin-bottom: 20px;
-}
+}*/
 .startButton{
 	display: block;
-	padding: 5px 10px;
-	background-color: lightgray;
-	font-size: 14px;
+	width: 115px;
+	padding: 10px 0;	
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	/*font-weight: 600;*/
+	background-color: #80ff80;
+	
+	color: #003300;
+	border: none;
+  	border-radius: 10px;
+  	box-shadow: 0 5px #003300;
+}
+.startButton:hover{
+	background-color: #66ff66; 
+}
+.startButton:active {
+  background-color: #66ff66;
+  box-shadow: 0 3px #003300;
+  transform: translateY(2px);
 }
 .progressBar{
 	height: 30px;
 	background-color: #b3ffb3;
+	margin-top: 20px;
 }
+

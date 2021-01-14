@@ -8,7 +8,12 @@ function App() {
               time: 5000,
               timeTick: 500,
               autostart: false
-            }} />  
+            }} />
+      <Timer timer={{
+              time: 10000,
+              timeTick: 1000,
+              autostart: true
+            }} />         
     </div>
   );
 }

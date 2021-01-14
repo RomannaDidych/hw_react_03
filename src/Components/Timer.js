@@ -3,7 +3,6 @@ import './styles.css';
 
 class Timer extends Component {
 	
-	
 		state = {
 			timing: this.props.timer.autostart,
 			time: this.props.timer.time,

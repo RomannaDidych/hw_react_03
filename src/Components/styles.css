@@ -1,11 +1,10 @@
 .timer{
-	width: 500px;
+	width: 80%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	margin-top: 200px;
+	align-items: flex-start;	
 }
 .showTime{
 	width: 100px;
@@ -14,9 +13,13 @@
 	border :1px solid #000;
 	margin-bottom: 20px;
 }
-.startStop{
+.startButton{
 	display: block;
 	padding: 5px 10px;
 	background-color: lightgray;
 	font-size: 14px;
+}
+.progressBar{
+	height: 30px;
+	background-color: #b3ffb3;
 }

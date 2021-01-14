@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Timer timer={{
               time: 5000,
-              timeTick: 1000,
+              timeTick: 500,
               autostart: false
             }} />  
     </div>

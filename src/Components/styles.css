@@ -13,23 +13,15 @@
 	font-weight: 600;
 	color: #b3ffb3;
 }
-/*.showTime{
-	width: 100px;
-	padding: 20px;
-	font-size: 20px;
-	border: 1px solid #000;
-	margin-bottom: 20px;
-}*/
+
 .startButton{
 	display: block;
 	width: 115px;
 	padding: 10px 0;	
 	font-size: 20px;
 	letter-spacing: 2px;
-	text-align: center;
-	/*font-weight: 600;*/
-	background-color: #80ff80;
-	
+	text-align: center;	
+	background-color: #80ff80;	
 	color: #003300;
 	border: none;
   	border-radius: 10px;
